@@ -1,13 +1,10 @@
 {
-  "homepage": "https://github.com/NagapuriSwathi/Aeonaxy-Technologies/",
   "name": "webdevelopmentinternshipproject",
   "private": true,
   "version": "0.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
