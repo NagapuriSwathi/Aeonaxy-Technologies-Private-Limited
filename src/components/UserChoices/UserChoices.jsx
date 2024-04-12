@@ -1,5 +1,10 @@
 import React from "react";
+
 import Card from "./Card";
+
+import image4 from "./../../assets/Images/image4.jpg";
+import image5 from "./../../assets/Images/image5.jpg";
+import image3 from "./../../assets/Images/image3.jpg";
 
 const UserChoices = ({ isButtonDisabled }) => {
   return (
@@ -17,19 +22,19 @@ const UserChoices = ({ isButtonDisabled }) => {
       <section>
         <div className="flex justify-center gap-6 align-center flex-wrap my-36">
           <Card
-            imageSource="src/assets/Images/image4.jpg"
+            imageSource={image4}
             imageDescription="I'm a designer looking to share my work."
             className="basis-5"
           />
 
           <Card
-            imageSource="src/assets/Images/image5.jpg"
+            imageSource={image5}
             imageDescription="I'm looking to hire a designer."
             className="basis-5"
           />
 
           <Card
-            imageSource="src/assets/Images/image3.jpg"
+            imageSource={image3}
             imageDescription="I'm looking for Design Inspiration."
             className="basis-5"
           />

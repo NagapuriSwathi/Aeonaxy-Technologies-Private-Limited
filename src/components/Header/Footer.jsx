@@ -1,11 +1,18 @@
-import React from "react";
+import React from "react"; 
+import logo from "./../../assets/Images/logo.png";
+import dribbleLogo from "./../../assets/Images/dribbbleLogo.jpg";
+import twitterIcon from "./../../assets/Images/twitterIcon.jpg"
+import facebookIcon from "./../../assets/Images/facebookIcon.jpg";
+import instagramIcon from "./../../assets/Images/instagramIcon.jpg";
+import pintrestIcon from "./../../assets/Images/pintrestIcon.jpg";
+
 
 const Footer = () => {
   return (
     <>
       <footer className="flex flex-col justify-around my-32 md:flex-row align-center">
         <div className="basis-1/6 text-left">
-          <img src="src/assets/Images/logo.png" alt="" />
+          <img src={logo.png} alt="" />
           <p className="">
             Dribbble is world's leading community for creatives to share, grow,
             and get hired.
@@ -13,27 +20,27 @@ const Footer = () => {
 
           <div className="icons flex space-x-3 my-4">
             <img
-              src="src/assets/Images/dribbbleLogo.jpg"
+              src={dribbleLogo}
               alt=""
               className="w-6 h-6 rounded-full"
             />
             <img
-              src="src/assets/Images/twitterIcon.jpg"
+              src={twitterIcon}
               alt=""
               className="w-6 h-6 rounded-full"
             />
             <img
-              src="src/assets/Images/facebookIcon.jpg"
+              src={facebookIcon}
               alt=""
               className="w-6 h-6 rounded-full"
             />
             <img
-              src="src/assets/Images/instagramIcon.jpg"
+              src={instagramIcon}
               alt=""
               className="w-6 h-6 rounded-full"
             />
             <img
-              src="src/assets/Images/pintrestIcon.jpg"
+              src={pintrestIcon}
               alt=""
               className="w-6 h-6 rounded-full" 
             />
@@ -134,7 +141,7 @@ const Footer = () => {
         <p>
           <strong>20,501,853</strong>&nbsp;shots dribbbled
           <img
-              src="src/assets/Images/dribbbleLogo.jpg"
+              src={dribbleLogo}
               alt=""
               className="w-6 h-6 inline mx-2 rounded-full"
             />

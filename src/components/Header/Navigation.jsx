@@ -1,4 +1,7 @@
 import React from "react";
+import logo from "./../../assets/Images/logo.png";
+import profileImage from "./../../assets/Images/profileImage.png";
+
 
 const Navigation = () => {
   return (
@@ -10,7 +13,7 @@ const Navigation = () => {
             <li>
               <a href="#">
                 <img
-                  src="src/assets/Images/logo.png"
+                  src={logo}
                   alt="logo"
                   className="w-8 h-8"
                 />
@@ -36,7 +39,7 @@ const Navigation = () => {
             <li className="text-2xl w-8 h-8">&#128188;</li>
             <li>
               <img
-                src="src/assets/Images/profileImage.png"
+                src={profileImage}
                 alt=""
                 className="w-8 h-8"
               />

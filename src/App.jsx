@@ -1,4 +1,6 @@
 import LandingPage from "./components/HomePageLeft/LandingPage";
+import logo from "./assets/Images/logo.png";
+import profileImage from "./assets/Images/profileImage.png";
 import Form from "./components/Form/Form";
 import Profile from "./components/Profile/Profile";
 import UserChoices from "./components/UserChoices/UserChoices";
@@ -23,7 +25,7 @@ function App() {
         </section>
 
         <img
-          src="src/assets/Images/logo.png"
+          src={logo}
           alt="logo"
           className="pl-36 my-20"
         />
@@ -35,7 +37,7 @@ function App() {
         </section>
 
         <img
-          src="src/assets/Images/logo.png"
+          src={logo}
           alt="logo"
           className="pl-36 my-20"
         />
@@ -43,7 +45,7 @@ function App() {
         <section id="profile" className="flex justify-center align-center">
           <div>
             <Profile
-              imagePath="src/assets/Images/profileImage.png"
+              imagePath={profileImage}
               imageAlternateText="Profile Image"
               location="Sans Franscisco"
               buttonState={false}
@@ -53,7 +55,7 @@ function App() {
         </section>
 
         <img
-          src="src/assets/Images/logo.png"
+          src={logo}
           alt="logo"
           className="pl-36 my-20"
         />
@@ -65,7 +67,7 @@ function App() {
         </section>
 
         <img
-          src="src/assets/Images/logo.png"
+          src={logo}
           alt="logo"
           className="pl-36 my-20"
         />

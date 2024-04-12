@@ -1,7 +1,10 @@
 import React from "react";
+import cameraIcon from "./../../assets/Images/cameraIcon.png";
+
+
 
 const Profile = ({
-  imagePath = "src/assets/Images/cameraIcon.png",
+  imagePath = {cameraIcon},
   imageAlternateText,
   location,
   buttonState = false,
